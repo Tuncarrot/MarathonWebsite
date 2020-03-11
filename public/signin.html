@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/stylesheets/styling.css">
+        <link rel="stylesheet" href="./assets/stylesheets/parallax.css">
+        <script type="text/javascript" src="./assets/javascript/signin.js"></script>
+        <title>Marathon</title>
+    </head>
+    <body>
+
+        <div id="navbar" class="fixed-top">
+          <a href="./index.html">Home</a>
+          <a href="https://app.swaggerhub.com/apis-docs/Git-Gud/Marathon/0.1.0">Documentation</a>
+          <a href="./termsofservice.html">Terms Of Service</a>
+          <a href="./privacypolicy.html">Privacy Policy</a>
+          <a href="./register.html">Register</a>
+          <a href="./login.html">Login</a>
+          <a href="passivemarathon://?id=6">Callback</a>
+        </div>
+
+        <div class="adjust-card">
+            <h4 id="pageTitle"></h4>
+        </div>
+
+        <div id="validToken">
+        <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Fitbit</h5>
+                  <a onclick="setFitbitRequest()" class="btn btn-primary">Sign In</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Google Fit</h5>
+                  <a href="#" class="btn btn-primary">Sign In</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+    </body>
+</html>

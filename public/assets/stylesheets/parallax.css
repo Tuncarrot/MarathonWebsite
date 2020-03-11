@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+
+body, html {
+    height: 100%;
+    margin:0;
+    font-family:'Raleway', sans-serif;
+    line-height: 180%;
+    color: #666;
+    text-align: center;
+}
+
+.parallax1 {
+    background: url(../images/fitness.svg);
+    min-height: 100%;
+}
+
+.parallax2 {
+    background: url(../images/lifeStyle.svg);
+    min-height: 60%;
+}
+
+.parallax3 {
+    background: url(../images/activity.svg);
+    min-height: 40%;
+}
+
+.parallax4 {
+    background: url(../images/goals.svg);
+    min-height: 100%;
+}
+
+.parallax1, .parallax2, .parallax3, .parallax4{
+    position: relative;
+    opacity: .75;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+.heading {
+    position: absolute;
+    color: #fff;
+    font-size: 550%;
+    top:38%;
+    width:100%;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-shadow: 0 0 10px #000;
+}
+
+.heading-sm {
+    position: absolute;
+    top:45%;
+    width: 100%;
+    color: #fff;
+    font-size:250%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px #000;
+}
+
+.section-padding {
+    margin-top: 50px;
+}
+
+section {
+    overflow: auto;
+    padding: 50% 80px;
+}
+
+.dark {
+    overflow:auto;
+    padding: 10% 80px;
+    background-color: #323232;
+    color:#f2f2f2;
+}
+
+@media (max-width: 768px) {
+    .heading {
+        font-size: 250%;
+    }
+    .heading-sm {
+        font-size:180%;
+    }
+}

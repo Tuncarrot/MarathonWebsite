@@ -1,0 +1,48 @@
+#navbar {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .adjust-header {
+      margin-top:40px;
+  }
+
+  .adjust-card {
+    margin-top: 100px;
+  }
+
+  .img-resize {
+    margin-top: 15%;
+    width: 80%;
+  }
+
+  .trademark_msg{
+    font-size: 12px;
+    margin-top: 40px;
+  }
+
+  .form-details {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+  }
